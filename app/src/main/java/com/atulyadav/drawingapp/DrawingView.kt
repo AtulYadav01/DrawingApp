@@ -12,9 +12,8 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
     private var mDrawPaint: Paint? = null
     private var mCanvasPaint: Paint? = null
     private var mBrushSize: Float = 0.toFloat()
-    private var colo = Color.BLACK
+    private var color = Color.BLACK
     private var canvas: Canvas? = null
-
 
     init {
         setUpDrawing()
